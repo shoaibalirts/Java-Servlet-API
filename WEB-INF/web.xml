@@ -1,11 +1,11 @@
 <web-app>
     <servlet>
-        <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-name>HelloWorldServletMyId</servlet-name>
         <servlet-class>HelloWorldServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-name>HelloWorldServletMyId</servlet-name>
         <url-pattern>/welcome</url-pattern>
     </servlet-mapping>
 </web-app>
