@@ -10,7 +10,7 @@ public class FirstServlet extends HttpServlet {
         String sname = request.getParameter("surname");
         String salary = request.getParameter("salary");
         int sal = Integer.parseInt(salary);
-        int tax = (int)(sal*0.15);
+        int tax = (int)(sal*0.30);
         String taxValue = tax + "";
         request.setAttribute("tax",taxValue);
 
